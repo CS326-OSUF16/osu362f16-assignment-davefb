@@ -1,0 +1,12 @@
+git remote add upstream "https://github.com/CS326-OSUF16/TestHWRepo"
+git branch master              # make sure we're on the master branch
+git fetch upstream             # pull any information about changes in upstream
+
+git merge upstream/master      # merge new files, will bring up vim 
+git push origin master         # push to your remote repository
+
+
+
+
+
+
