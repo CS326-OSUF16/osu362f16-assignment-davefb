@@ -1,4 +1,4 @@
-David Baldwin, Fall 2016
+David Baldwin, Fall 2016..
 
 
 
