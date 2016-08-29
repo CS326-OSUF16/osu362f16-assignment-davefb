@@ -1,9 +1,10 @@
 if [ -d ".git" ]; then
-    git remote add upstream "https://github.com/CS326-OSUF16/TestHWRepo"
-    git checkout master              # make sure we're on the master branch
-    git fetch upstream             # pull any information about changes in upstream
+git remote add upstream "https://github.com/CS326-OSUF16/TestHWRepo"
+git checkout master              # make sure we're on the master branch
+git fetch upstream             # pull any information about changes in upstream
 
-    git merge upstream/master -m "Sync"      # merge new files, will bring up vim 
+git merge upstream/master      # merge new files, will bring up vim 
+git push origin master         # push to your remote repository
 
 else
 	echo ".git not found. Make sure to run this script from your root repository" 
